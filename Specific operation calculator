@@ -1,0 +1,57 @@
+_1="1.addition"
+_2=" 2.subtraction"
+_3=' 3.multiplication'
+_4=' 4.division'
+_5=" 5.floor division"
+_6=" 6.squareroot"
+_7=" 7.square"
+print(_1 + _2+_3+_4+_5+_6+_7)
+number=int(input('choose one from above: '))
+a=int(input("enter first number: "))
+b=int(input("enter second number: "))
+while True:
+    if (number==1):
+        def addi():
+            x=a+b
+            print("addition is",x)
+        addi()
+
+    elif (number==2):
+        def subtract():
+            y=a-b
+            print("subtraction is",y)
+        subtract()
+
+    elif (number==3):
+        def mul():
+            z=a*b
+            print("multiplication is",z)
+        mul()
+
+    elif (number==4):
+        def div():
+            v=a/b
+            print("division is",v)
+        div()
+
+    elif (number==5):
+        def divv():
+            w=a//b
+            print("floor division is",w)
+        divv()
+
+    elif (number==6):
+        def root():
+            u=a**(1/b)
+            print("Root is",u)
+        root()
+
+    elif (number==7):
+        def square():
+            t=a**b
+            print("Power is",t)
+        square()
+
+    else:
+        print("choose one from above")
+    break
