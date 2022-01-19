@@ -1,0 +1,6 @@
+name = "jhon"
+age = 23
+
+print(f'{name} is {age} year old')
+print("%s is %d years old" % (name,age))
+print("{} is {} years old" .format(name, age))
