@@ -1,0 +1,10 @@
+s = 'i am learning python'
+print(s)
+print("index (n):")
+print(s.index('n'))
+print("count (n): ")
+print(s.count('n'))
+print(s.capitalize())
+print(s.title())
+print(s.lower())
+print(s.upper())
