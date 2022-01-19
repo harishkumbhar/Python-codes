@@ -1,0 +1,16 @@
+l = ['harish', 'darshan', 'harsh','gajanan']
+
+def admin():
+    print("YOU ARE NOT ALLOWED")
+    a = input("ADMIN PLEASE ADD NAME: ")
+    l.append(a)
+    print(l)
+for i in range (1,5) :
+    user = input("enter ur name: ")
+
+    while True:
+        if user in l :
+            print(" YOU ARE ALLOWED")
+        else:
+            admin()
+        break
