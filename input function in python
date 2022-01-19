@@ -1,0 +1,7 @@
+name=input("Enter your name: ")
+age=input("Enter your age: ")
+occupation=input("Enter your occupation: ")
+print(end='\n')
+print("I am " + name +"." )
+print("My age is " + age + ".")
+print("I am a " + occupation + " pursuing in final year.")
