@@ -1,0 +1,17 @@
+num1 = int(input("enter starting number: "))
+num2 = int(input("enter end number: "))
+flag = False
+
+for i in range (num1, num2):
+    flag = False
+    if num1 == 1 or num1 == 2 :
+        num1 = 3
+
+    for j in range (2,i):
+        if i % j == 0:
+            print(i,"composite")
+            flag = True
+            break
+
+    if flag == False :
+        print(i,"prime")
