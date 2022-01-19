@@ -1,0 +1,14 @@
+class Area:
+    def setDim(self):
+        self.a = int(input("Enter the length "))
+        self.b = int(input("Enter the breadth "))
+
+    def getArea(self, a, b):
+        self.area = a*b
+        print("Area is",self.area)
+
+o = Area()
+o.setDim()
+x = o.a
+y = o.b
+o. getArea(x, y)
