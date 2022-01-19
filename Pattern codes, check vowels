@@ -1,0 +1,47 @@
+# pattern code1
+for i in range (1,6):
+
+        for j in range (i,6):
+                if j >= i :
+
+                        print("*", end="")
+        print()
+
+
+# pattern code2
+c = 0
+while c<6:
+    for i in range(1,c+1):
+        print(i, end=" ")
+    print()
+    c+=1
+
+# to check vowels and consonunts
+a = "avdhoot"
+for i in a:
+        if i in "aeiou":
+                print(i,"vowels")
+        else:
+                print(i,"consonunts")
+
+
+# to add previous number to new number
+def series():
+        n = 1
+        n1 = 2
+        for i in range (50):
+                n2 = n + n1
+                print(n2)
+                n=n1
+                n1=n2
+
+series()
+
+
+
+
+
+
+
+
+
