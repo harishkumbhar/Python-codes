@@ -1,0 +1,25 @@
+i = int(input("enter 1st number: "))
+j = int(input("enter 2st number: "))
+
+while True:
+    def add():
+        sum1 = i+j
+        print("sum is",sum1)
+
+    def subtract():
+        yy = i - j
+        print("subtraction is",yy)
+
+    def multiply():
+        mul = i*j
+        print("multiplication is",mul)
+
+    def divide():
+        div = i/j
+        print("division is",format(div,"0.3f"))
+
+    add()
+    subtract()
+    multiply()
+    divide()
+    break
