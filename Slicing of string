@@ -8,3 +8,10 @@ print(s.capitalize())
 print(s.title())
 print(s.lower())
 print(s.upper())
+
+#new code
+d= 'harishkumbhar2018.elect@mmcoe.edu.in'
+print(d)
+print(d.index('@'))
+print(d.index('.edu'))
+print(d[24:29:1])
