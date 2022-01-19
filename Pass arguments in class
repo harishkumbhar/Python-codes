@@ -1,0 +1,22 @@
+class Train:
+    def __init__(self,name,fare,seats):
+        self.name=name
+        self.fare=fare
+        self.seats=seats
+    def nameoftrain(self):
+        print(f"the train is {self.name}")
+    def price(self):
+        print(f"the fare of the train is {self.fare}")
+    def seat(self):
+        print(f"the seats are {self.seats}")
+
+
+a=Train("rajdhani express ",90,120)
+a.nameoftrain()
+a.price()
+a.seat()
+
+b=Train("goa express",100,150)
+b.nameoftrain()
+b.price()
+b.seat()
